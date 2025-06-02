@@ -4,7 +4,7 @@ This repository contains T-SQL scripts to create and populate an SCD-2 Employee 
 
 ## Directory Structure
 
-- `sql/`
+- `sql_scripts`
   - `01_create_sandbox.sql`
   - `02_dim_department.sql`
   - `03_dim_sub_department.sql`
