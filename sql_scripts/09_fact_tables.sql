@@ -1,0 +1,21 @@
+-- 09_fact_tables.sql
+-- Uncomment and run when ready to create facts
+
+-- fact_headcount_monthly
+-- CREATE TABLE dbo.fact_headcount_monthly (
+--   month_end_key       INT NOT NULL,  
+--   headcount           INT NOT NULL,
+--   headcount_distinct  INT NOT NULL,
+--   load_date           DATETIME NOT NULL
+-- );
+-- GO
+
+-- fact_employee_event
+-- CREATE TABLE dbo.fact_employee_event (
+--   event_sk         INT           IDENTITY(1,1) PRIMARY KEY,
+--   event_date_key   INT           NOT NULL,  
+--   employee_sur_key INT           NOT NULL,  
+--   change_reason    VARCHAR(30)   NOT NULL,
+--   salary           MONEY         NOT NULL
+-- );
+-- GO
